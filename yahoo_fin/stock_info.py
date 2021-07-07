@@ -277,7 +277,7 @@ def tickers_ftse250(include_company_data = False):
 
 
 
-def get_quote_table(ticker , dict_result = True, headers = {'User-agent': 'Mozilla/5.0'}): 
+def get_quote_table(ticker , dict_result = True, headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}): 
     
     '''Scrapes data elements found on Yahoo Finance's quote page 
        of input ticker
